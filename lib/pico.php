@@ -39,7 +39,7 @@ class Pico {
 
 		// Get the file path
 		if($url) $file = CONTENT_DIR . $url;
-		else $file = CONTENT_DIR .'index';
+		else $file = CONTENT_DIR .'home';
 
 		// Load the file
 		if(is_dir($file)) $file = CONTENT_DIR . $url .'/index'. CONTENT_EXT;
